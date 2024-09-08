@@ -14,12 +14,25 @@ The repository is organized as follows:
 
 ## Project Description
 
-In this project, we performed sentiment analysis on movie reviews using machine learning models. We explored various natural language processing techniques such as text preprocessing, vectorization, and classification using models like logistic regression, random forests as well as deep learning models like CNN.
+Sentiment analysis in the realm of movie reviews has become a game-changer in our digital age. As movie enthusiasts incerasingly turn to online reviews for guidance in their cinematic choices, the demand for accurate sentiment predictions has surged. 
+
+The primary objective of this project is to build a robust machine-learning model capable of making predictions in the form of sentiment classification for movie reviews. By classifying each textual review into one of the several predefined categories (positive/neutral/negative), the project aims to enhance the accuracy of sentiment predictions in the domain of movie reviews and explore collecting data from well-established movie review webpages through web scraping.
 
 Key steps in the project include:
-- Data cleaning and preprocessing
-- Text vectorization using TF-IDF
-- Model training and evaluation
+- Obtaining raw data through web scraping
+  - As the raw dataset size is too big to upload, do contact Nicole (nicole.chong2002@gmail.com) if you wish to have access to it.
+- Data Cleaning and Preprocessing
+- Text Vectorization using TF-IDF
+- Model Training
+  1. Linear Models (Naive Bayes, linear SVM, logistic regression)
+  2. Ensemble Learning (Random Forest)
+  3. Deep Learning (CNN-BiLSTM)
+- Model Evaluation
+  1. Accuracy
+  2. Recall
+  3. Precision
+  4. F1-score
+- Model Hyperparameter Tuning
 - Visualization of results
 
 The full code and detailed explanations are available in the Jupyter notebook (`group49_report+notebook.ipynb`).
