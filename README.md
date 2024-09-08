@@ -62,7 +62,7 @@ jupyter notebook group49_report+notebook.ipynb
 ```
 
 ## Project Slides
-The project slides, summarizing the key results and findings, can be found in the `group49_slides.pdf` file.
+The project slides summarizing the key results and findings, can be found in the `group49_slides.pdf` file.
 
 
 
